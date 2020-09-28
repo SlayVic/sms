@@ -9,6 +9,6 @@ def send_msg(phone, text):
    print(resp.json())
 
 if __name__ == "__main__":
-  msg = input('Write msg')
-  number = input('write number')
+  msg = input('Write msg: ')
+  number = input('write number: ')
   send_msg(number, msg)
